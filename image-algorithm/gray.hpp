@@ -15,4 +15,7 @@ using namespace cv;
 //均值灰度
 Mat gray_avg(Mat src_image);
 
+//权重灰度
+Mat gray_weight(Mat src_image);
+
 #endif /* gray_hpp */

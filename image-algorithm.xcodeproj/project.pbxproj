@@ -240,6 +240,7 @@
 		1647CD272BE72B7C00B6F367 /* libopencv_wechat_qrcode.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1647CC402BE72B7C00B6F367 /* libopencv_wechat_qrcode.dylib */; };
 		1647CD282BE72B7C00B6F367 /* libopencv_plot.409.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1647CC412BE72B7C00B6F367 /* libopencv_plot.409.dylib */; };
 		1647CD2C2BE72CD600B6F367 /* gray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1647CD2A2BE72CD600B6F367 /* gray.cpp */; };
+		16B8585C2BE7455900411FA9 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16B8585A2BE7455900411FA9 /* color.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -599,6 +600,8 @@
 		1647CD292BE72BA400B6F367 /* image-algorithm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "image-algorithm.entitlements"; sourceTree = "<group>"; };
 		1647CD2A2BE72CD600B6F367 /* gray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gray.cpp; path = "image-algorithm/gray.cpp"; sourceTree = "<group>"; };
 		1647CD2B2BE72CD600B6F367 /* gray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = gray.hpp; path = "image-algorithm/gray.hpp"; sourceTree = "<group>"; };
+		16B8585A2BE7455900411FA9 /* color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = color.cpp; path = "image-algorithm/color.cpp"; sourceTree = "<group>"; };
+		16B8585B2BE7455900411FA9 /* color.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = color.hpp; path = "image-algorithm/color.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -846,6 +849,8 @@
 		1647CA762BE72AA900B6F367 = {
 			isa = PBXGroup;
 			children = (
+				16B8585A2BE7455900411FA9 /* color.cpp */,
+				16B8585B2BE7455900411FA9 /* color.hpp */,
 				1647CD2A2BE72CD600B6F367 /* gray.cpp */,
 				1647CD2B2BE72CD600B6F367 /* gray.hpp */,
 				1647CA812BE72AA900B6F367 /* image-algorithm */,
@@ -2083,6 +2088,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B8585C2BE7455900411FA9 /* color.cpp in Sources */,
 				1647CD2C2BE72CD600B6F367 /* gray.cpp in Sources */,
 				1647CA832BE72AA900B6F367 /* main.cpp in Sources */,
 			);
